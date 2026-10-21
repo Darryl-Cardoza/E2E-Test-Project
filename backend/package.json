@@ -1,5 +1,5 @@
 {
-  "name": "auth-dashboard-backend",
+  "name": "e2e-test-project-backend",
   "version": "1.0.0",
   "private": true,
   "description": "Express and MongoDB API for the Northstar authentication dashboard",

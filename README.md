@@ -1,4 +1,4 @@
-# Northstar auth dashboard
+# E2E-Test-Project
 
 A small full-stack starter with a Next.js frontend and a separate Express API backed by MongoDB.
 
