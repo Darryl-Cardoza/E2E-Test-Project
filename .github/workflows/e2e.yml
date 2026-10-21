@@ -1,6 +1,6 @@
 # Copy to .github/workflows/e2e.yml in the E2E-Test-Project application repository.
 # The E2E repository is assumed to have the same personal account owner and name
-# northstar-e2e-tests. Configure E2E_REPO_TOKEN if that repository is private.
+# E2E-Test-Project. Configure E2E_REPO_TOKEN if that repository is private.
 name: E2E Tests
 
 on:
@@ -34,7 +34,7 @@ jobs:
       - name: Checkout E2E repository
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.repository_owner }}/northstar-e2e-tests
+          repository: ${{ github.repository_owner }}/E2E-Test-Project
           ref: main
           token: ${{ secrets.E2E_REPO_TOKEN || github.token }}
           path: e2e-tests
