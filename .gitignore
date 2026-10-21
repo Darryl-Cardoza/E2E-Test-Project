@@ -38,5 +38,5 @@ Thumbs.db
 .idea/
 .vscode/
 frontend/next-env.d.ts
-backend/package-lock.json
-frontend/package-lock.json
+backend/package.json
+frontend/package.json
